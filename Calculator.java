@@ -16,10 +16,10 @@ public class Calculator {
 		switch(operator)
 		{
 		case '+':
-			result=number1+number2;
+			result=2*number1+2*number2;
 			break;
 		case '-':
-			result=number1-number2;
+			result=2*number1-2*number2;
 			break;
 		default:
 			System.out.println("You enter wrong input");
